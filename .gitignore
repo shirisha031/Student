@@ -1,0 +1,22 @@
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore system files and IDE/project folders
+.vs/
+*.swp
+*.swo
+.DS_Store
+obj/
+
+# Ignore environment variables
+.env
+
+# Ignore temp and BFG-related artifacts
+--replace-text
+REPLACEMENT
+"C:\Users\Admin\Downloads\Student 3\Student\student_alerts_app" 
